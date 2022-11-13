@@ -18,3 +18,38 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.country-card {
+  background-color: rgb(168, 168, 168);
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.country-card__data {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.country-card__title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.country-list__link {
+  display: flex;
+  margin-bottom: 3px;
+}
+
+.country-list__image {
+  margin-right: 15px;
+}
